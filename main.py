@@ -30,7 +30,7 @@ def print_hi7(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 # Press the green button in the gutter to run the script.
-def print_hi8(name):
+def print_hi9(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 if __name__ == '__main__':
