@@ -1,3 +1,9 @@
-alien_0 = {'color': 'green', 'points': 5}
-print(alien_0['color'])
-print(alien_0['points'])
+favorite_languages = {
+ 'jen': 'python',
+ 'sarah': 'c',
+ 'edward': 'rust',
+ 'phil': 'python',
+ }
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+ print(language.title())
