@@ -1,9 +1,6 @@
-favorite_languages = {
- 'jen': 'python',
- 'sarah': 'c',
- 'edward': 'rust',
- 'phil': 'python',
- }
-print("The following languages have been mentioned:")
-for language in set(favorite_languages.values()):
- print(language.title())
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+    print(alien)
